@@ -1,0 +1,43 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-image: url("./assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 240px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 187.5% */
+  text-transform: uppercase;
+}
+
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Open Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 260.87% */
+}
+
+.header__menu-link {
+  color: #ffff;
+}
